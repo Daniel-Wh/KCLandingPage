@@ -9,7 +9,7 @@
   }
 
   html {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -27,25 +27,31 @@ section {
     margin: 0 auto;
   }
   
-  .row {
+.row {
     margin: 0 auto;
     max-width: 1140px;
   }
   
-  .rowHeader {
+.rowHeader {
     margin: 0 auto;
     width: auto;
   }
   
+h2{
+      border-bottom: 2px solid #000;
+      padding-bottom: 40px;
+}
+
 /* HEADINGS------------------------------------*/
 header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 20px;
     
 }
 nav {
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -102,3 +108,56 @@ nav {
     max-width: 49%;
     height: auto;
 }
+
+
+.about {
+    background-image: linear-gradient(#fff, #000);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-header {
+    margin: 0 auto;
+    font-size: 175%;
+    
+}
+.text-box-of-3{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.text-box-of-3 p{
+    width: 30%;
+}
+.img-box-of-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.img-box-of-3 img{
+    max-width: 32%;
+    padding-top: 20px;
+}
+
+
+.investment {
+    background-image: linear-gradient(#000, #fff);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.investmenth2{
+    color: #fff;
+    font-size: 175%;
+    border-bottom: 2px solid #fff;
+}
+
