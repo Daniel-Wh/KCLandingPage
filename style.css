@@ -39,16 +39,19 @@ section {
   
 /* HEADINGS------------------------------------*/
 header{
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
 }
 nav {
-    background-color: blanchedalmond;
-    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .links ul{
     display: flex;
     align-items: flex-end;
@@ -57,4 +60,17 @@ nav {
 .links ul li{
     padding: 10px;
     list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    justify-content: space-between;
+    
+}
+
+.hero img{
+    max-width: 49%;
+    height: auto;
 }
