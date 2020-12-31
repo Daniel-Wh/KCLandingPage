@@ -50,23 +50,51 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+}
+.logo {
+    width: 50%;
+}
+.logo h1{
+    padding-left: 10%;
+}
+
+.links {
+    width: 50%;
 }
 
 .links ul{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 .links ul li{
     padding: 10px;
     list-style-type: none;
 }
 
+.links li a:link,
+.links li a:visited{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+
+.links li a:hover,
+.links li a:active{
+    border-bottom: 2px solid #000
+}
+
 .hero {
     display: flex;
     flex-wrap: nowrap;
     max-width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
