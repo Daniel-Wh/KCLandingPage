@@ -6,13 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: #313133;
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap');
 
   html {
-    background-color: #e7e7e7;
+    background-color: #ffffff;
     font-family: 'Lora', serif;
     font-weight: 300;
     font-size: 22px;
@@ -22,6 +23,7 @@
   }
   p {
       font-family: 'Raleway', sans-serif;
+      text-align: center;
   }
 
 /*---------------------------------------------*/
@@ -46,6 +48,12 @@ section {
 h2{
       border-bottom: 2px solid #000;
       padding: 20px 0;
+      font-weight: 300;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 220%;
 }
 
 /* HEADINGS------------------------------------*/
@@ -103,7 +111,7 @@ nav {
 }
 
 .hero {
-background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.329)), url(img/header1.jpg);
+background-image: url(img/header1.jpg);
 padding: 0;
   height: 95vh;
   width: 100%;
@@ -112,6 +120,39 @@ padding: 0;
   background-position: top;
 }
 
+.hero-outer {
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    background-image: linear-gradient(rgba(65, 156, 118, 0.438), rgba(65, 156, 118, 0.438));
+    
+}
+
+.hero-text {
+    width: 90%;
+    height: 90%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+}
+.hero-text h2 {
+    font-family: 'Lora', serif;
+    color: #ffffff !important;
+    font-size: 34px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: transparent;
+}
 
 .about {
     color: #000;
@@ -132,7 +173,8 @@ padding: 0;
     height: 400px;
     width: 400px;
     margin-top: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.329)), url(img/kc.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.329)), url(img/kc.jpg); */
+    background-image: url(img/kc.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -166,7 +208,7 @@ padding: 0;
     padding-top: 20px;
 }
 .img-box-of-3 img{
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
     max-width: 32%;
     padding-top: 10px;
 }
@@ -182,11 +224,13 @@ padding: 0;
 }
 .package h3 {
     font-size: 120%;
+    font-weight: 300;
 }
 .package p {
     width: 90%;
     font-family: 'Raleway', sans-serif;
     padding: 25px 0;
+    font-size: 50%;
 }
 .package ul{
     list-style-type: disc;
@@ -195,6 +239,7 @@ padding: 0;
 .package ul li{
     margin-left: 50px;
     padding: 5px;
+    font-size: 75%;
 }
 
 .investment {
@@ -217,7 +262,7 @@ footer {
     left: 0;
     width: 100%;
     height: 80px;
-    background-color: #313133;
+    background-color: #7a998c;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -249,4 +294,54 @@ footer ul li img{
 .fab, .far, .fas {
     color: #fff;
     font-size: 40px;
+}
+
+.contact-form {
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    margin-right: 15px;
+    border: 1px solid #7a998c;
+    background-color: #7a998c;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+  }
+
+  input[type="submit"] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+  }
+
+  input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: rgba(255, 255, 255, 0.795);
+  border: 1px solid #e67e22;
+  font-weight: 500;
+  color: #e67e22;
 }
