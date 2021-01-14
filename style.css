@@ -131,7 +131,7 @@ padding: 0;
     justify-content: center;
     align-items: center;
     border: 2px solid #fff;
-    background-image: linear-gradient(rgba(65, 156, 118, 0.438), rgba(65, 156, 118, 0.438));
+    background-image: linear-gradient( rgba(255, 255, 255, 0.753), rgba(255, 255, 255, 0.753));
     
 }
 
@@ -142,7 +142,7 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(rgba(65, 156, 118, 0.295),rgba(65, 156, 118, 0.301));
 }
 .hero-text h2 {
     font-family: 'Lora', serif;
