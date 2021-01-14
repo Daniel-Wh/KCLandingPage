@@ -354,3 +354,75 @@ input[type="submit"]:active {
   font-weight: 500;
   color: #e67e22;
 }
+
+/*---------------------------------------------*/
+/* Responsive */
+/*---------------------------------------------*/
+
+@media(max-width: 1605px){
+    .hero-text h2 {
+        font-size: 120%;
+    }
+}
+
+@media(max-width: 1252px){
+    .hero-outer {
+        top: 18%;
+    }
+    .hero-text h2 {
+        font-size: 100%;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 847px){
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    h1{
+        font-size: 140%;
+    }
+    .hero-text h2 {
+        width: 100%;
+        font-size: 90%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .links {
+        width: 100%;
+    }
+    .links ul {
+        min-width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    @media(max-width: 654px){
+        .links ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .links ul li{
+            font-size: 90%;
+        }
+        .hero-outer {
+            top: 28%;
+            width: 40%;
+        }
+        .hero-text h2{
+            font-size: 75%;
+        }
+    }
+}
