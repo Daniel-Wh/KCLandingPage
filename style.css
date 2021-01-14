@@ -1,6 +1,8 @@
 /*---------------------------------------------*/
 /* Basic set up */
 /*---------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,400&family=Parisienne&family=Sacramento&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +10,8 @@
     scroll-behavior: smooth;
     color: #313133;
   }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;300&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap');
-
   html {
     background-color: #ffffff;
-    font-family: 'Lora', serif;
     font-weight: 300;
     font-size: 22px;
     padding: 0;
@@ -22,8 +19,24 @@
     text-rendering: optimizeLegibility;
   }
   p {
-      font-family: 'Raleway', sans-serif;
       text-align: center;
+  }
+
+  .banner {
+    font-family: 'Sacramento', cursive;
+  }
+
+  .body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .body-italic {
+      font-family: 'Montserrat', sans-serif;
+      font-style: italic;
+  }
+
+  .paris {
+    font-family: 'Parisienne', cursive;
   }
 
 /*---------------------------------------------*/
@@ -52,7 +65,6 @@ h2{
 }
 
 h1 {
-    font-family: 'Lora', serif;
     font-size: 220%;
 }
 
@@ -142,10 +154,9 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(65, 156, 118, 0.295),rgba(65, 156, 118, 0.301));
+    background-image: linear-gradient(rgba(65, 156, 118, 0.377),rgba(65, 156, 118, 0.377));
 }
 .hero-text h2 {
-    font-family: 'Lora', serif;
     color: #ffffff !important;
     font-size: 34px;
     line-height: 130%;
@@ -214,7 +225,6 @@ padding: 0;
 }
 
 .package {
-    font-family: 'Lora', serif;
     font-size: 110%;
     width: 33vw;
     display: flex;
@@ -228,7 +238,6 @@ padding: 0;
 }
 .package p {
     width: 90%;
-    font-family: 'Raleway', sans-serif;
     padding: 25px 0;
     font-size: 50%;
 }
@@ -297,7 +306,7 @@ footer ul li img{
 }
 
 .contact-form {
-    font-family: 'Raleway', sans-serif;
+    
     width: 60%;
     margin: 0 auto;
     margin-bottom: 40px;
