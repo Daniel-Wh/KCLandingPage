@@ -123,7 +123,7 @@ nav {
 }
 
 .hero {
-background-image: url(img/header1.jpg);
+background-image: url(img/header1-min.jpg);
 padding: 0;
   height: 95vh;
   width: 100%;
@@ -185,7 +185,7 @@ padding: 0;
     width: 400px;
     margin-top: 40px;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.329)), url(img/kc.jpg); */
-    background-image: url(img/kc.jpg);
+    background-image: url(img/kc-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
