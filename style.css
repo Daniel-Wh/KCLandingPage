@@ -194,7 +194,7 @@ padding: 0;
     height: 400px;
     width: 400px;
     margin-top: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.329)), url(img/kc-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.158)), url(img/kc-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
