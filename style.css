@@ -194,8 +194,7 @@ padding: 0;
     height: 400px;
     width: 400px;
     margin-top: 40px;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.329)), url(img/kc.jpg); */
-    background-image: url(img/kc-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.329)), url(img/kc-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -422,6 +421,23 @@ input[type="submit"]:active {
     }
 }
 
+@media(max-width: 749px){
+    .hero-text h2 {
+        font-size: 78%;
+    }
+}
+
+@media(max-height: 400px){
+    .hero-text h2 {
+        font-size: 65%;
+    }
+    .hero-outer {
+        top: 40vh;
+        left: 5vw;
+    }
+}
+
+
 
 @media(max-width: 654px){
     .img-box-of-3 img{
@@ -437,7 +453,7 @@ input[type="submit"]:active {
         font-size: 90%;
     }
     .hero-outer {
-        top: 50%;
+        top: 40%;
         left: 8%;
         width: 40%;
     }
