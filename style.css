@@ -423,7 +423,7 @@ input[type="submit"]:active {
 
 @media(max-width: 749px){
     .hero-text h2 {
-        font-size: 78%;
+        font-size: 70%;
     }
 }
 
@@ -485,5 +485,14 @@ input[type="submit"]:active {
     }
     footer .logo {
         font-size: 150% !important;
+    }
+}
+
+@media(max-width: 350px){
+    .hero-outer{
+        top: 50%;
+    }
+    .hero-text h2 {
+        font-size: 50%;
     }
 }
