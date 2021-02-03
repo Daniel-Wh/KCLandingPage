@@ -210,9 +210,9 @@ padding: 0;
     font-size: 130%;
 }
 .text-box-of-3{
-    padding-top: 20px;
+    margin: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     font-size: 130%;
@@ -234,12 +234,32 @@ padding: 0;
     border: 20px solid #7a998c;
 }
 
+
+
+.packages{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.package-h2{
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+.package h3{
+    padding: 10px;
+}
 .package {
+    background: rgba(122, 153, 140, 0.2);
     font-size: 110%;
-    width: 33vw;
+    max-width: 32vw;
+    border: 2px solid #7a998c;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex: 1;
     align-items: center;
 }
 .package h3 {
@@ -369,7 +389,7 @@ input[type="submit"]:active {
 /* Responsive */
 /*---------------------------------------------*/
 
-@media(max-width: 1605px){
+@media(max-width: 1768px){
     .hero-text h2 {
         font-size: 120%;
     }
@@ -463,16 +483,20 @@ input[type="submit"]:active {
     .hero-text h2{
         font-size: 60%;
     }
-    .text-box-of-3{
+    .text-box-of-3, .packages{
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     .package {
         width: 90%;
-        margin-left: 5%;
-        padding: 20px 0;
+        max-width: 90%;
+        margin: 0 auto;
+        margin: 10px 0;
     }
     .package h3{
-        font-size: 100%;
+        font-size: 80%;
+        
     }
     .package p {
         font-size: 60%;
@@ -494,5 +518,9 @@ input[type="submit"]:active {
     }
     .hero-text h2 {
         font-size: 50%;
+    }
+    .kc-image{
+        height: 300px;
+        width: 300px;
     }
 }
