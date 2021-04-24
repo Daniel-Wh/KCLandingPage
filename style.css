@@ -412,9 +412,7 @@ input[type="submit"]:active {
 }
 
 @media(max-width: 847px){
-    .img-box-of-3 img{
-        border: 10px solid #7a998c;
-    }
+    
     .logo{
         display: flex;
         justify-content: center;
@@ -477,9 +475,7 @@ input[type="submit"]:active {
         height: 300px;
         width: 300px;
     }
-    .img-box-of-3 img{
-        border: 5px solid #7a998c;
-    }
+    
     .links ul{
         display: flex;
         flex-direction: column;
